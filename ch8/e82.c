@@ -11,15 +11,11 @@ int calculateTriangularNumber(int n) {
 }
 
 int main(void) {
-    int number, counter;
     int calculateTriangularNumber(int n);
 
-    for(counter = 1; counter <= 5; counter++) {
-        printf("What triangular number do you want? ");
-        scanf("%i", &number);
-
-        printf("Triangular number %i is %i\n", number, calculateTriangularNumber(number));
-    }
+    printf("Triangular number %i is %i\n", 10, calculateTriangularNumber(10));
+    printf("Triangular number %i is %i\n", 20, calculateTriangularNumber(20));
+    printf("Triangular number %i is %i\n", 50, calculateTriangularNumber(50));
 
     return 0;
 }
